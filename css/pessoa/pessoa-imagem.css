@@ -1,0 +1,22 @@
+.pessoa__imagem {
+    height: 300px;
+    margin: 0 auto; /*isso centraliza o container da imagem*/
+    width: 300px;
+    background-color: blue;
+    background-repeat: no-repeat; /*NAO IRÁ REPETIR A IMAGEM PARA COBRIR O CONTAINER*/
+    background-size: cover; /*A IMAGEM POR SER MENOR QUE O CONTAINER VAI EXPANDIR E COBRIR ELE TODO*/
+    border-radius: 100%; /*ARREDONDA O CONTAINER DA IMAGEM*/
+    background-position: center; /*CENTRALIZA A IMAGEM*/
+}
+
+.pessoa__imagem--roberta {
+    background-image: url("../../img/pessoas/roberta.jpg");
+}
+
+.pessoa__imagem--marcela {
+    background-image: url("../../img/pessoas/marcela.jpg");
+}
+
+.pessoa__imagem--andreia {
+    background-image: url("../../img/pessoas/andreia.jpg");
+}
